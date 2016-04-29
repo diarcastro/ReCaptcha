@@ -8,5 +8,14 @@ use diarcastro\utils\ReCaptcha;
 
 $reCaptcha=new ReCaptcha('YOUR_SECRET_KEY','YOUR_SITE_KEY');
 ````
+##Show the widget
+````
+$recaptcha->render();
+````
 
-##see index.php
+##Validate
+````
+$recaptcha->isValid();
+````
+
+##see example in index.php
